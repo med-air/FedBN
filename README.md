@@ -69,8 +69,10 @@ Please using following commands to train a model with federated learning strateg
 cd federated
 # benchmark experiment
 python fed_digits.py --mode fedbn
+
 # office-caltech-10 experiment
 python fed_office.py --mode fedbn
+
 # DomaiNnet experiment
 python fed_domainnet.py --mode fedbn
 ```
@@ -82,8 +84,10 @@ Please using following commands to train a model using singleset data.
 cd singleset 
 # benchmark experiment, --data option: svhn | usps | synth | mnistm | mnist
 python single_digits.py --data svhn
+
 # office-caltech-10 experiment --data option: amazon | caltech | dslr | webcam
 python single_office.py --data amazon
+
 # DomaiNnet experiment --data option: clipart | infograph | painting | quickdraw | real | sketch
 python single_domainnet.py --data clipart
 ```
@@ -94,8 +98,10 @@ python single_domainnet.py --data clipart
 cd federated
 # benchmark experiment
 python fed_digits.py --mode fedbn --test
+
 # office-caltech-10 experiment
 python fed_office.py --mode fedbn --test
+
 # DomaiNnet experiment
 python fed_domainnet.py --mode fedbn --test
 ```
