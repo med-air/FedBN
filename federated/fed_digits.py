@@ -89,9 +89,9 @@ def train(model, train_loader, optimizer, loss_fun, client_num, device):
     num_data = 0
     correct = 0
     loss_all = 0
-    optimizer.zero_grad()
     train_iter = iter(train_loader)
     for step in range(len(train_iter)):
+        optimizer.zero_grad()
         x, y = next(train_iter)
         num_data += y.size(0)
         x = x.to(device).float()
@@ -112,9 +112,9 @@ def train_fedprox(args, model, train_loader, optimizer, loss_fun, client_num, de
     num_data = 0
     correct = 0
     loss_all = 0
-    optimizer.zero_grad()
     train_iter = iter(train_loader)
     for step in range(len(train_iter)):
+        optimizer.zero_grad()
         x, y = next(train_iter)
         num_data += y.size(0)
         x = x.to(device).float()
