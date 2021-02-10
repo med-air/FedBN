@@ -287,7 +287,7 @@ if __name__ == '__main__':
             for client_idx in range(client_num):
                 model, train_loader, optimizer = models[client_idx], train_loaders[client_idx], optimizers[client_idx]
                 if args.mode.lower() == 'fedprox':
-                    if a_iter > 0 
+                    if a_iter > 0:
                         train_fedprox(args, model, train_loader, optimizer, loss_fun, client_num, device)
                     else:
                         train(model, train_loader, optimizer, loss_fun, client_num, device)

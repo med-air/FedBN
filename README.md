@@ -27,7 +27,7 @@ conda activate fedbn
     cd ./data
     unzip digit_dataset.zip
     ```
-- Please download our pretrained model [here](https://drive.google.com/file/d/1jIq0fVS915KIO9M5jYWtfmqtsklm_pNv/view?usp=sharing) and put under `snapshots/` directory, perform following commands:
+- Please download our pretrained model [here](https://drive.google.com/file/d/1fBZ_EcAcC0N0JdztYOPLvSkv1DT_avRA/view?usp=sharing) and put under `snapshots/` directory, perform following commands:
     ```bash
     cd ./snapshots
     unzip digit_model.zip
