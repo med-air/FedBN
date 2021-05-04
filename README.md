@@ -112,9 +112,9 @@ If you find the code and dataset useful, please cite our paper.
 @inproceedings{
 li2021fedbn,
 title={Fed{\{}BN{\}}: Federated Learning on Non-{\{}IID{\}} Features via Local Batch Normalization},
-author={Xiaoxiao Li and Meirui JIANG and Xiaofei Zhang and Michael Kamp and Qi Dou},
+author={Xiaoxiao Li and Meirui Jiang and Xiaofei Zhang and Michael Kamp and Qi Dou},
 booktitle={International Conference on Learning Representations},
 year={2021},
-url={https://openreview.net/forum?id=6YEQUn0QICG}
+url={https://openreview.net/pdf?id=6YEQUn0QICG}
 }
 ```
