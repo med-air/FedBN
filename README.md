@@ -1,5 +1,5 @@
 # FedBN: Federated Learning on Non-IID Features via Local Batch Normalization
-This is the PyTorch implemention of our paper **[FedBN: Federated Learning on Non-IID Features via Local Batch Normalization](https://openreview.net/pdf?id=6YEQUn0QICG)** by Xiaoxiao Li, Meirui Jiang, Xiaofei Zhang, Michael Kamp and Qi Dou
+This is the PyTorch implemention of our paper **[FedBN: Federated Learning on Non-IID Features via Local Batch Normalization](https://openreview.net/pdf?id=6YEQUn0QICG)** by [Xiaoxiao Li](https://xxlya.github.io/xiaoxiao/), [Meirui Jiang](https://meiruijiang.github.io/MeiruiJiang/), Xiaofei Zhang, [Michael Kamp](https://michaelkamp.org/) and [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/)
 ## Abstract
 > The emerging paradigm of federated learning (FL) strives to enable collaborative training of deep models on the network edge without centrally aggregating raw data and hence improving data privacy. In most cases, the assumption of independent and identically distributed samples across local clients does not hold for federated learning setups. Under this setting, neural network training performance may vary significantly according to the data distribution and even hurt training convergence. 
 Most of the previous work has focused on a difference in the distribution of labels. Unlike those settings, we address an important problem of FL, e.g., different scanner/sensors in medical imaging, different scenery distribution in autonomous driving (highway vs. city), where local clients may store examples with different marginal or conditional feature distributions compared to other nodes, which we denote as feature shift non-iid.  In this work, we propose an effective method that uses local batch normalization to alleviate the feature shift before averaging models. The resulting scheme, called FedBN, outperforms both classical FedAvg, as well as the state-of-the-art for non-iid data (FedProx) on our extensive experiments. These empirical results are supported by a convergence analysis that shows in a simplified setting that FedBN has a faster convergence rate in expectation than FedAvg.
@@ -32,6 +32,8 @@ conda activate fedbn
     cd ./snapshots
     unzip digit_model.zip
     ```
+For the original data, please download [here](https://drive.google.com/file/d/1P8g7uHyVxQJPcBKE8TAzfdKbimpRbj0I/view?usp=sharing), and find the processing steps in `utils/data_preprocess.py`.
+
 **office-caltech10**
 - Please download our pre-processed datasets [here](https://drive.google.com/file/d/1gxhV5xRXQgC9AL4XexduH7hdxDng7bJ3/view?usp=sharing), put under `data/` directory and perform following commands:
     ```bash
