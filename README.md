@@ -32,7 +32,12 @@ conda activate fedbn
     cd ./snapshots
     unzip digit_model.zip
     ```
-For the original data, please download [here](https://drive.google.com/file/d/1P8g7uHyVxQJPcBKE8TAzfdKbimpRbj0I/view?usp=sharing), and find the processing steps in `utils/data_preprocess.py`.
+For the original data, please download [here](https://drive.google.com/file/d/1P8g7uHyVxQJPcBKE8TAzfdKbimpRbj0I/view?usp=sharing)
+or you can directly run the following to download and process data.
+```bash
+cd ./utils
+python data_preprocess.py
+```
 
 **office-caltech10**
 - Please download our pre-processed datasets [here](https://drive.google.com/file/d/1gxhV5xRXQgC9AL4XexduH7hdxDng7bJ3/view?usp=sharing), put under `data/` directory and perform following commands:
