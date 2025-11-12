@@ -56,7 +56,7 @@ python data_preprocess.py
     cd ./data
     unzip domainnet_dataset.zip
     ```
-- then download dataset including: [Clipart](http://csr.bu.edu/ftp/visda/2019/multi-source/groundtruth/clipart.zip), [Infograph](http://csr.bu.edu/ftp/visda/2019/multi-source/infograph.zip), [Painting](http://csr.bu.edu/ftp/visda/2019/multi-source/groundtruth/painting.zip), [Quickdraw](http://csr.bu.edu/ftp/visda/2019/multi-source/quickdraw.zip), [Real](http://csr.bu.edu/ftp/visda/2019/multi-source/real.zip), [Sketch](http://csr.bu.edu/ftp/visda/2019/multi-source/sketch.zip), put under `data/DomainNet` directory and unzip them.
+- then download dataset including: [Clipart](http://csr.bu.edu/ftp/visda/2019/multi-source/clipart.zip), [Infograph](http://csr.bu.edu/ftp/visda/2019/multi-source/infograph.zip), [Painting](http://csr.bu.edu/ftp/visda/2019/multi-source/painting.zip), [Quickdraw](http://csr.bu.edu/ftp/visda/2019/multi-source/quickdraw.zip), [Real](http://csr.bu.edu/ftp/visda/2019/multi-source/real.zip), [Sketch](http://csr.bu.edu/ftp/visda/2019/multi-source/sketch.zip), put under `data/DomainNet` directory and unzip them.
     ```bash
     cd ./data/DomainNet
     unzip [filename].zip
