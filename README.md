@@ -22,36 +22,30 @@ conda activate fedbn
 ```
 ### Dataset & Pretrained Modeel
 **Benchmark(Digits)**
-- Please download our pre-processed datasets [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EV1YgHfFC4RKjw06NL4JMdgBMU21CegM12SpXrSmGjt3XA?e=XK2rFs), put under `data/` directory and perform following commands:
+- Please download our pre-processed datasets [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/digit_model.zip), put under `data/` directory and perform following commands:
     ```bash
     cd ./data
     unzip digit_dataset.zip
     ```
-- Please download our pretrained model [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EctUjFdPN2NBr83gs4VStzQBojiwq6BB-YT4FP6qlbcMmA?e=Za6bQI) and put under `snapshots/` directory, perform following commands:
+- Please download our pretrained model [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/digit_dataset.zip) and put under `snapshots/` directory, perform following commands:
     ```bash
     cd ./snapshots
     unzip digit_model.zip
     ```
-For the original data, please download [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/ES8V-6_GU7FHrfeaWnyC2McBmUc4PDEGe9ZZoyqsCOnEpw?e=plGKmj)
-or you can directly run the following to download and process data.
-```bash
-cd ./utils
-python data_preprocess.py
-```
-
+    
 **office-caltech10**
-- Please download our pre-processed datasets [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EaBgx5UmvatMi0KdvfdLWsABC49vcjZ2n9oZkjwl8jPMyA?e=TDxqN5), put under `data/` directory and perform following commands:
+- Please download our pre-processed datasets [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/office_caltech_10_dataset.zip), put under `data/` directory and perform following commands:
     ```bash
     cd ./data
     unzip office_caltech_10_dataset.zip
     ```
-- Please download our pretrained model [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EYScRu8pHphJvHAyy0ANcy8B9k1ukyzeqzWMy1o1_NaJ0A?e=CzoFbc) and put under `snapshots/` directory, perform following commands:
+- Please download our pretrained model [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/office_caltech_10_model.zip) and put under `snapshots/` directory, perform following commands:
     ```bash
     cd ./snapshots
     unzip office_caltech_10_model.zip
     ```
 **DomainNet**
-- Please first download our splition [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EUTZ_Dr9YnxLm_cGvjXJGvEBJtKUn_LxpFs9DZ2ZVS-eaw?e=N8ajKz), put under `data/` directory and perform following commands:
+- Please first download our splition [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/domainnet_dataset.zip), put under `data/` directory and perform following commands:
     ```bash
     cd ./data
     unzip domainnet_dataset.zip
@@ -61,7 +55,7 @@ python data_preprocess.py
     cd ./data/DomainNet
     unzip [filename].zip
     ```
-- Please download our pretrained model [here](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155149226_link_cuhk_edu_hk/EdIHckPwvpZKii1NXA3FwiYBzS_1aI7AKxyG0aqapMsLLg?e=xgVc4y) and put under `snapshots/` directory, perform following commands:
+- Please download our pretrained model [here](https://huggingface.co/datasets/Jemary/FedBN_Dataset/blob/main/domainnet_model.zip) and put under `snapshots/` directory, perform following commands:
     ```bash
     cd ./snapshots
     unzip domainnet_model.zip
